@@ -1,0 +1,101 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     
+    }
+    /* Estilização de todo o corpo do site */
+    body{
+        background: linear-gradient(to bottom right, rgb(40, 5, 62), rgb(208, 77, 222));
+        color: rgb(255, 255, 255);
+        background-repeat: no-repeat no-repeat;
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    /* Visualização do menu header e links*/
+    ul{
+      display: flex;
+      justify-content: space-around;
+      
+    }
+  
+   .interface{ max-width: 1280px;
+      margin: 0 auto;
+      
+      
+    }
+    .flex{
+      display: flex;
+    }
+   
+    header .interface{align-items: center;
+      
+    }
+    
+   
+    header nav ul li{ display:inline-block ;
+      font-size:30px  ;
+      font-family: "Anta", sans-serif;
+      font-weight: 100;
+      padding: 40px;
+      
+      
+    }
+    header a{color:rgb(154, 65, 154);
+      text-decoration: none;
+      display: inline-block;  
+    }
+     header a:hover{
+      color: rgb(255, 255, 255);
+      transition: .2s;
+      transform: scale(1.05);
+   
+   } 
+   /*cor do texto */
+   .texto{
+      color: rgb(255, 255, 255);
+      font-family: "Anta", sans-serif;
+   }
+   /* cor exclusiva no titulo*/
+   span{
+      color: rgb(219, 76, 255);
+      text-shadow:-5px -10px 6px rgba(51, 19, 63, 0.778) ;
+}
+   section.sobre{ padding: 40px;
+   
+
+   }
+   /* exposição dos itens na tela como o texto e a imagem */
+   section.sobre .flex{
+      align-items: center;
+      justify-content: center;
+      gap: 90px;
+   }
+   /* estilização do titulo*/
+   h1{
+      font-size: 80px;
+      font-weight: 100;
+      line-height: 70px;
+     
+} 
+
+.texto{
+   text-align: center;
+}
+.text{
+   margin: 40px 0;
+} 
+/*tamanho largura e outra personalizações da imagem */
+   img{
+      margin-top: 50px;
+      width: 700px;
+      box-shadow: -10px -20px 15px rgb(90, 54, 93);;   
+          border-radius: 0px 50px 0px 50px;
+   }
+   .html{
+      border: none;
+   }
+   
+  
