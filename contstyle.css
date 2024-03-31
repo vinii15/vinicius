@@ -1,0 +1,96 @@
+/*predefinição de tudo que vai estar na tela */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  /* cor e definições do site */
+  body{
+      background: linear-gradient(to bottom right, rgb(40, 5, 62), rgb(208, 77, 222));
+      color: rgb(255, 255, 255);
+      background-repeat: no-repeat no-repeat;
+      width: 100%;
+      height: 100%;
+      font-family:"Anta", sans-serif; 
+      font-size: 20px;
+      
+      
+      
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+ .interface{ max-width: 1280px;
+    margin: 0 auto;
+    
+    
+  }
+ 
+ 
+  /*header .interface{align-items: center;
+    
+  }
+  */
+ 
+  header nav ul li{ display:inline-block ;
+    font-size:30px  ;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    padding: 40px;
+    
+    
+  }
+  /*cor do link*/
+  header a{color:rgb(154, 65, 154);
+    text-decoration: none;
+    display: inline-block;  
+  }
+  /*efeito ao passar o mouse em cima */
+   header a:hover{
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    transform: scale(1.05);
+ 
+ }
+/*Formatações do titulo e subtitulo*/
+#titulo{
+    font-family:"Anta", sans-serif; 
+    font-size: 70px;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: rgb(219, 76, 255);
+    text-shadow:-5px -10px 6px rgba(51, 19, 63, 0.778) }
+
+#subtitulo{
+    font-family: "Anta", sans-serif;
+    font-size: 30px;
+    margin-left:10%;
+}
+fieldset{
+    border:0;
+}
+/*formatações do formulario*/
+form{
+    margin-left: 10%;
+    line-height: 40px;
+    border: none;
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+}
+/*formatações do botão*/
+
+button{
+ padding: 10px;
+ border-radius: 20px;
+ border: none;
+ margin-left: 10%;
+ margin-top: 15px;
+}
+
+  
