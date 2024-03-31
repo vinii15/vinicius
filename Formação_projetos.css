@@ -1,0 +1,125 @@
+/*predefinição de tudo que será exibido na tela */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  /* estilos do corpo do site */
+  body{
+      background: linear-gradient(to bottom right, rgb(40, 5, 62), rgb(208, 77, 222));
+      color: rgb(255, 255, 255);
+      background-repeat: no-repeat no-repeat;
+      width: 100%;
+      height: 100%;
+      
+      
+  }
+  /*estilo da barra de navegação*/
+  ul{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+ .interface{ max-width: 1280px;
+    margin: 0 auto;
+    
+    
+  }
+  .flex{
+    display: flex;
+  }
+ 
+  header .interface{align-items: center;
+    
+  }
+  
+ 
+  header nav ul li{ display:inline-block ;
+    font-size:30px  ;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    padding: 40px;
+    
+    
+  }
+  header a{color:rgb(154, 65, 154);
+    text-decoration: none;
+    display: inline-block;  
+  }
+   header a:hover{
+    color: rgb(255, 255, 255);
+    transition: .2s;
+    transform: scale(1.05);
+ 
+ }
+ /*personalização do titulo e textos*/
+ .texto{
+    color: rgb(255, 255, 255);
+    font-family: "Anta", sans-serif;
+ }
+ span{
+    color: rgb(219, 76, 255);
+    text-shadow:-5px -10px 6px rgba(51, 19, 63, 0.778) ;
+}
+/*personalização do conteudxo como dimensões da imagem e textos na tela */
+ section.sobre{ padding: 40px;
+  padding-top: 10px;
+
+
+ }
+ section.sobre .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+ }
+ h1{
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 70px;
+   
+}
+.texto{
+ text-align: center;
+}
+.text{
+ margin: 40px 0;
+}
+ img{
+    width: 500px;
+    
+    padding: px;
+    box-shadow: -40px -20px 50px rgb(90, 54, 93);;  
+    border-radius: 250px 250px 250px 250px;
+    margin-top: none;
+    
+   
+ }
+ /* definições de links de projetos */
+ .projeto{
+  align-items: center;
+  
+  font-size:30px  ;
+  font-family: "Anta", sans-serif;
+  font-weight: 100;
+  padding: 30px;
+
+ }
+ .projeto a:hover{color: rgb(255, 255, 255);
+  transition: .2s;
+  transform: scale(1.05);
+ }
+
+a{
+  color:rgb(232, 205, 232);
+}
+ 
+ .html{
+    border: none;
+ }
+  
+
+
+
+  
